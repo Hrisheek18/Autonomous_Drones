@@ -7,8 +7,6 @@ Originally designed as a two-drone surveillance-and-response system, this implem
 
 # Project Structure
 
-
-
  main.py                      # Main FSM controller for takeoff, tracking, landing
  camera_yolo_stream.py       # Starts MJPEG stream using libcamera-vid (Flask)
 |---modules/
@@ -87,7 +85,7 @@ python3 main.py --mode flight --control PID
  `drone.py` - Handles MAVLink setup, takeoff, land, YAW, XY commands 
  `vision.py` - Computes distance from bbox height 
 
-
+`drone_protocols folder`- Different autonomous applications for the drone through python scripts
 ##  Enhancements
 
 - Stereo Vision: Extend `vision.py` to compute depth from two images.
