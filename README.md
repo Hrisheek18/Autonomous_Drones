@@ -45,9 +45,9 @@ Originally designed as a two-drone surveillance-and-response system, this implem
 
 Install dependencies:
 
--bash
--sudo apt update
--sudo apt install python3-pip libatlas-base-dev libopencv-dev
+- bash
+- sudo apt update
+- sudo apt install python3-pip libatlas-base-dev libopencv-dev
 -pip3 install flask opencv-python numpy torch torchvision simple-pid pymavlink requests
 
 
